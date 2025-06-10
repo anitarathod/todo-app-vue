@@ -1,5 +1,27 @@
-# Vue 3 + Vite
+# TODO-APP 
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Infrastructure:
+- Vue 3
+- vite
+- CSS
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+Libraries: axios
+
+Tooling:
+- JavaScript
+- TypeScript
+- Prettier
+
+
+## API specifications
+
+### API Endpoints
+GET https://fakestoreapi.com/products
+ 
+GET https://fakestoreapi.com/products/category/{category}
+
+Post https://fakestoreapi.com/products
+
+Put https://fakestoreapi.com/products/${payload.id}
+
+Delete https://fakestoreapi.com/products/${payload.id}
